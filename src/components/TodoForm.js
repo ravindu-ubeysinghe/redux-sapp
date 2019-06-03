@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function PostForm() {
+function TodoForm() {
     const [todo, setTodo] = useState({
         id: 0,
         title: '',
@@ -31,4 +31,4 @@ function PostForm() {
     )
 }
 
-export default PostForm;
+export default TodoForm;
